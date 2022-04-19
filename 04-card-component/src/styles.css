@@ -50,7 +50,7 @@ nav img {
   width: 176px;
 }
 
-.card--availability {
+.card--status {
   transform: translate(5px, 25px);
   background-color: #fff;
   color: #222222;

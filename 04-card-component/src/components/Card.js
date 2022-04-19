@@ -4,7 +4,7 @@ import Katie from "../images/katie-zaferes.png";
 export default function Card() {
   return (
     <div className="card">
-      <p className="card--availability">SOLD OUT</p>
+      <p className="card--status">SOLD OUT</p>
       <img className="card--photo" src={Katie} alt="Swimmer" />
       <p>
         <span className="star">★</span> 5.0 <span>(6) • USA</span>{" "}
