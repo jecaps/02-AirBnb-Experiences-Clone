@@ -1,34 +1,36 @@
 import Contact from "./components/Contact";
+import mrWhiskerson from "./images/mr-whiskerson.png";
+import fluffykins from "./images/fluffykins.png";
+import felix from "./images/felix.png";
+import pumpkin from "./images/pumpkin.png";
 
 export default function App() {
-  return function App() {
-    return (
-      <div className="contacts">
-        <Contact
-          img="./images/mr-whiskerson.png"
-          name="Mr. Whiskerson"
-          phone="(212) 555-1234"
-          mail="mr.whiskaz@catnap.meow"
-        />
-        <Contact
-          img="./images/fluffykins.png"
-          name="Fluffykins"
-          phone="(212) 555-2345"
-          mail="fluff@me.com"
-        />
-        <Contact
-          img="./images/felix.png"
-          name="Felix"
-          phone="(212) 555-4567"
-          mail="thecat@hotmail.com"
-        />
-        <Contact
-          img="./images/pumpkin.png"
-          name="Pumpkin"
-          phone="(0800) CAT KING"
-          mail="pumpkin@scrimba.com"
-        />
-      </div>
-    );
-  };
+  return (
+    <div className="contacts">
+      <Contact
+        image={mrWhiskerson}
+        name="Mr. Whiskerson"
+        phone="(212) 555-1234"
+        email="mr.whiskaz@catnap.meow"
+      />
+      <Contact
+        image={fluffykins}
+        name="Fluffykins"
+        phone="(212) 555-2345"
+        email="fluff@me.com"
+      />
+      <Contact
+        image={felix}
+        name="Felix"
+        phone="(212) 555-4567"
+        email="thecat@hotmail.com"
+      />
+      <Contact
+        image={pumpkin}
+        name="Pumpkin"
+        phone="(0800) CAT KING"
+        email="pumpkin@scrimba.com"
+      />
+    </div>
+  );
 }
