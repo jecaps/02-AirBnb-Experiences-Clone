@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  min-width: 550px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  height: 4.375rem;
+  width: 100%;
+}
+
+nav img {
+  max-width: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem;
+}
+
+.hero img {
+  max-width: 25rem;
+  align-self: center;
+}
+
+.hero h1 {
+  margin: 1.5rem 0 0.5rem 0;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.hero p {
+  margin-top: 0;
+  width: 20rem;
+  line-height: 1rem;
+}
+
+.container {
+  display: flex;
+  margin: 0 0 0 27px;
+}
+
+.card {
+  position: relative;
+  margin: 10px;
+  margin-top: 0;
+  width: 176px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 3px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.card--photo {
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card div img {
+  align-self: center;
+  width: 12px;
+  height: 12px;
+  padding-right: 2px;
+}
+
+.card span {
+  color: #918e9b;
+}
+
+.star {
+  color: #fe395c !important;
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 12px;
+  padding: 0 0 2px 0;
+}
