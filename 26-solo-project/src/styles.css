@@ -7,7 +7,7 @@ body {
 .navbar {
   background-color: #f9f9fb;
   display: flex;
-  color: #000;
+  color: #444140;
   font-family: "Square Peg", cursive;
   font-size: 1rem;
   gap: 5px;
@@ -32,8 +32,9 @@ body {
 }
 
 .article--img {
-  height: 168px;
+  max-width: 100%;
   width: 125px;
+  height: 168px;
   border-radius: 5px;
 }
 
@@ -66,5 +67,6 @@ body {
 }
 
 .article--description {
+  color: #2b283a;
   font-size: 10.24px;
 }
