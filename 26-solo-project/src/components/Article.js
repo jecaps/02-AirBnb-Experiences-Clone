@@ -6,7 +6,7 @@ export default function Article() {
         src="https://images.pexels.com/photos/3358880/pexels-photo-3358880.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Castle"
       />
-      <div className="article--description">
+      <div className="article--details">
         <div className="article--map">
           <svg
             width="7"
@@ -28,6 +28,15 @@ export default function Article() {
           </a>
         </div>
         <h3 className="article--title">Neuschwanstein Castle</h3>
+        <div>
+          <p className="article--date">19 July 2019</p>
+          <p className="article--description">
+            Neuschwanstein Castle is a 19th-century historicist palace on a
+            rugged hill above the village of Hohenschwangau near Füssen in
+            southwest Bavaria, Germany. The palace was commissioned by King
+            Ludwig II of Bavaria as a retreat and in honour of Richard Wagner.
+          </p>
+        </div>
       </div>
     </article>
   );
